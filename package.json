@@ -1,6 +1,9 @@
 {
   "name": "nila-code",
   "type": "module",
+  "engines": {
+    "bun": ">=1.4.4"
+  },
   "scripts": {
     "start": "bun run src/index.tsx",
     "test": "bun test",
